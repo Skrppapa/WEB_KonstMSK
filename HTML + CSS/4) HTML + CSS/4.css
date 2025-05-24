@@ -1,0 +1,30 @@
+body {
+      background-color: rgb(238, 238, 238);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+      /*align-items: center;*/
+      padding: 20px;
+      background-color: #fff; 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+      border-radius: 8px;
+    }
+
+    h2 {
+      font-family: sans-serif;
+      margin: 0 0 10px;
+    }
+
+    p {
+      font-family: sans-serif;
+      text-align: left;
+      margin: 0;
+    }

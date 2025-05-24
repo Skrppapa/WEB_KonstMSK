@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+section.gallery {
+  width: 100%;
+}
+
+section.gallery ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 10px 0;
+  list-style: none;
+}
+
+section.gallery li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.4rem solid black;
+  padding: 1.0rem;
+  margin: 1.5rem;
+}
+
+section.gallery li.small-img img {
+  width: 300px;
+  height: 200px;
+}
+
+section.gallery li.large-img img {
+  width: 300px;
+  height: 450px;
+}
